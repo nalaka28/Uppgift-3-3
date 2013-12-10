@@ -28,13 +28,15 @@ p
 
 
 #container{
-        float:none;
-        width: 640px;
+        float:left;
+        width: 600px;
        
         margin: 0 auto;
         background-color: gray;
         font-family:verdana;
-  
+        border-width:1px;
+        border-style: solid;
+        border-color:black;
     
     
     }
@@ -47,14 +49,16 @@ p
         background-repeat:no-repeat;
         background-color:#51473D;
         background-position:right 0 bottom 0;
-        text-align:right;
+        text-align:right; 
+        line-height: 180%;
         font-style:italic;
         font-size:0.7em;
         color:#EAE7D2;
-        
+                
         
     
 }
+
 #menu{
         float:left;
         background-color:#51473D;
@@ -134,7 +138,7 @@ p
 
 #content{
         
-        width:600px;
+        
         float:left;
         padding-right: 0;
          color: rgb(121,112,102);
@@ -154,21 +158,26 @@ p
 #maincontent{
     
         float:left;
-        width:300px;
-        
+        width:357px;
+        margin-right:10px;               
+}
+#maincontent img{
+    
+    float:left;
+    
 }
 
 #subcontent{
     
-
+        float:left;
         border-left-style:dashed;
         border-width:1px;
         margin-top:2px;
         margin-bottom:5px; 
         
-        float:left;
-        width:100px;
-    
+       
+        width:232px;
+        
 }
 #subcontent h1{
     
