@@ -1,48 +1,56 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
-h1 { 
-    font-family:"Helvetica","Arial", sans-serif;
+/*h1 { 
+    font-family:"times";
     margin-top:70px;
     margin-left:10px;
     margin-right:10px;
-    font-size:10px;
-}
+    font-size:30px;
+    color:#797066;
+}*/
+
 h2 { 
-    font-family:"Helvetica","Arial", sans-serif;
-    margin-top:70px;
-    margin-left:10px;
-    margin-right:10px;
-    font-size:10px;
+        font-family:"Times";
+        margin-top:70px;
+        margin-left:10px;
+        margin-right:10px;
+        font-size:14px;
 }
+
 p
 {
-   
-    font-family: helvetica;
-    font-size:10px;
-    margin-left:1px;
-    margin-right:1px;
+        color:#797066;
+        font-family: verdana;
+        font-size:14px;
+        margin-left:1px;
+        margin-right:1px;
 }
 
 
 #container{
-    
-        max-width: 960px;
+        float:none;
+        width: 640px;
+       
         margin: 0 auto;
-        background-color: white;
+        background-color: gray;
         font-family:verdana;
   
     
     
     }
 #topbar{
-        width:960px;
-        height:180px;
+        float:left;
+        width:600px;
+        height:220px;
         margin: 0 auto;
-       background-image:url(pics/coffey.jpg);
+        background-image:url(pics/coffey1.jpg);
         background-repeat:no-repeat;
-       /* background-position:right 0 bottom 0;*/
-       
-        
+        background-color:#51473D;
+        background-position:right 0 bottom 0;
+        text-align:right;
+        font-style:italic;
+        font-size:0.7em;
+        color:#EAE7D2;
         
         
     
@@ -52,15 +60,15 @@ p
         background-color:#51473D;
         padding:0;
         width:600px;
-        height:50px;
-       
+        height:40px;
+        
 }
 
     
 #menu ul{ 
         float: left;
         margin-left: 2px;
-      
+        max-width:600px;
         
         background: #51473D;
         
@@ -73,17 +81,18 @@ p
         float: left;
         height: 40px;
         margin-right: 2px;
-      
+        
     
     }
 
 #menu li a{
     
-    text-decoration: none;
+        text-decoration: none;
      
-    padding-bottom: 11px;
-    padding-top:5px;
-        
+        padding-bottom: 11px;
+        padding-top:5px;
+        padding-left:10px;
+        padding-right:10px;
         
         display: block;
         color: rgb(223,213,196);
@@ -93,51 +102,121 @@ p
 
 #menu a:link{
    
-        color: white;
+        color:#EAE7D2 ;
     
     }
+
 #menu a:visited{
         color: white;
-    
     }
+
 #menu a:hover{
-        background: #EAE7D2;
-    
+        background-color: #EAE7D2;
+        color:#51473D;
     }
+
 #menu a current{
-        background: white; color: white;
+        background:#EAE7D2 ; 
+        } 
     
+    
+#menu a{
+        display:none;
     } 
-    
-    
-    
 
 
 
 
 
-#maincontent{
+
     
     
-}
+
 #content{
         
         width:600px;
-        height:600px;
         float:left;
         padding-right: 0;
-       
-        
-        color: rgb(121,112,102);
+         color: rgb(121,112,102);
+        margin:0 auto;
         background-color:#EAE7D2;
-}                         
+} 
+#content h1 {
+        font-family:"times";
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:10px;
+        font-size:30px;
+        color:#797066;
+
+}
+
+#maincontent{
+    
+        float:left;
+        width:300px;
+        
+}
+
+#subcontent{
+    
+
+        border-left-style:dashed;
+        border-width:1px;
+        margin-top:2px;
+        margin-bottom:5px; 
+        
+        float:left;
+        width:100px;
+    
+}
+#subcontent h1{
+    
+        font-family:"times";
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:10px;
+        font-size:16px;
+        color:#797066;
+    
+}
+#subcontent a:link{
+        color:#51473D;
+        font-size:10px;
+   
+}
+#subcontent p{
+    
+        margin-left:10px;
+   
+    
+}
+#subcontent ul{
+    
+        list-style-type:none;
+        padding-left:10px;
+}
+
+
+/*#subcontent li{
+    
+    margin
+    
+    
+}*/
 #bottomcontent{
-      clear:left;
-        height:100px;
-        width:960px;
-        background-color:rgb(251,234,161);
-        padding:0;
-        font-size:0.6em;
+      
+      
+      
+    
+   
+   
+    
+        max-width:980px;
+        float:left;
+        padding-bottom:10px;
+        
+        
      
     }
     
